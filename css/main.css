@@ -1,0 +1,61 @@
+.hidden {
+    display: none;
+}
+
+  
+.container{
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #F3F3F3;
+}
+
+#main-content{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  article{
+    grid-column: 1/-1;
+}
+
+p{
+    line-height: 30px;
+    color: #000000;
+}
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 0 #ff7300;
+}
+
+img{
+    grid-column:-1/0 ;
+}
+
+#first_img, #sixth_img, #fifth_img, #eighth_img, #third_img{
+    margin-left: -20px;
+}
+#seventh_img, #second_img, #fourth_img, #ninth_img{
+    float: right;
+}
+.highlight{
+    font-weight: bold;
+    color: #ff7300;
+}
